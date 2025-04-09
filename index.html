@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Speed Typing Test</h1>
+        
+        <div class="word-display" id="word-display">
+            <!-- Words will be inserted here -->
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="typing-input" placeholder="Start typing..." autocomplete="off" disabled>
+        </div>
+        
+        <div class="timer" id="timer">60</div>
+
+        <div class="results" id="results">
+            <h2>Test Completed!</h2>
+            <p>Your typing speed: <span id="final-wpm">0</span> WPM</p>
+            <p>Accuracy: <span id="accuracy">0</span>%</p>
+            <button class="btn btn-play" id="restart-btn">Try Again</button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h2>Status</h2>
+        <ul>
+            <li>Words Typed: <span id="words-typed">0</span></li>
+            <li>Correct Words: <span id="correct-words">0</span></li>
+            <li>Incorrect Words: <span id="incorrect-words">0</span></li>
+            <li>Accuracy: <span id="accuracy-status">100%</span></li>
+            <li>Time Remaining: <span id="time-remaining-status">60s</span></li>
+            <li>WPM: <span id="wpm-status">0</span></li>
+        </ul>
+    </div>
+</body>
+</html>
