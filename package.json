@@ -1,0 +1,27 @@
+{
+  "name": "speed-type-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humbelgay/speed-typing-challenge-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/humbelgay/speed-typing-challenge-/issues"
+  },
+  "homepage": "https://github.com/humbelgay/speed-typing-challenge-#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.1.9"
+  }
+}
